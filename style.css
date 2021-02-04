@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+p {
+  color: dimgray;
+}
+.main-nav {
+  height: 80px;
+}
+.nav-item {
+  float: right;
+  display: block;
+}
+.nav-item ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 30px;
+}
+.nav-item ul li:nth-child(1) {
+  margin-left: 0px;
+}
+.nav-item ul li a {
+  text-decoration: none;
+  color: black;
+}
+.first-image {
+  width: 100%;
+  margin-left: 50px;
+}
+.second-image {
+  width: 100%;
+}
+section {
+  height: 520px;
+}
+.half-width {
+  width: 40%;
+  float: left;
+}
+.common-text {
+  font-size: 60px;
+  font-weight: 700;
+  color: #363958;
+  margin: 0;
+}
+.title-text {
+  color: #3e3e3e;
+  font-size: 20px;
+  font-weight: normal;
+}
+.hire-button {
+  background-color: #f86b61;
+  padding: 16px 45px;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.download-button {
+  background-color: #f86b61;
+  padding: 16px 25px;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.middel-section {
+  margin-top: 120px;
+  height: 620px;
+  background-color: #f8f9fc;
+}
+.project-text {
+  text-align: center;
+  color: #363958;
+  font-size: 35px;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.project-image {
+  width: 100%;
+}
+.project-item {
+  width: 30%;
+  background: #ffffff;
+  padding: 8px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.project {
+  text-align: center;
+}
+.project-name {
+  color: #363958;
+}
+.project-about,
+.project-name {
+  text-align: left;
+}
+.chat {
+  background-image: url(./images/Group_33094_1.png);
+  background-size: cover;
+  background-position: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 80px;
+  height: 200px;
+  border-radius: 10px;
+}
+.chat-button {
+  background-color: #f86b61;
+  padding: 16px 25px;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  float: right;
+  margin-top: 75px;
+  margin-right: 60px;
+  cursor: pointer;
+}
+.work-text {
+  float: left;
+  color: white;
+  font-size: 35px;
+  margin-left: 50px;
+  font-weight: 700;
+}
+.fast-footer {
+  text-align: center;
+}
+.footer-text {
+  font-weight: bold;
+  font-size: 18px;
+  color: #696871;
+}
+.gmail {
+  font-size: 35px;
+  color: #363958;
+  margin: 0;
+}
+.social-icon {
+  margin-top: 30px;
+}
+.footer-icon {
+  width: 40px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+.fast-footer {
+  margin-bottom: 50px;
+}
